@@ -7,8 +7,8 @@ const RBS_COPY = {
     headline: "Apps, música\ne jogos.", intro: "Criamos experiências digitais com simplicidade e personalidade.", explore: "Explore nossos projetos",
     ourProjects: "Nossos projetos", category: "Jogo de palavras · iOS", description: "Palavras, batalhas e um universo para explorar. Conheça um jogo onde cada letra abre novas possibilidades.",
     discover: "Conhecer o jogo", categoryZeroPontos: "Simulado CNH · iOS", descriptionZeroPontos: "Simulados de 30 questões e revisão com o Código de Trânsito. Estude placas, use a Colinha e chegue mais perto da CNH.",
-    discoverZeroPontos: "Conhecer o app", characterZeroPontos: "Placeholder do ícone do Zero Pontos", categoryMarca: "TODO · iOS", descriptionMarca: "TODO: adicionar a descrição da Marca.",
-    discoverMarca: "Conhecer o app", characterMarca: "Placeholder do ícone da Marca", aboutRbs: "Sobre a RBS", statement: "Ideias diferentes.\nO mesmo cuidado.",
+    discoverZeroPontos: "Conhecer o app", characterZeroPontos: "Ícone do Zero Pontos", categoryMarca: "Rede social de livros · iOS", descriptionMarca: "TODO: adicionar a descrição da Marca.",
+    discoverMarca: "Conhecer o app", characterMarca: "Ícone da Marca", aboutRbs: "Sobre a RBS", statement: "Ideias diferentes.\nO mesmo cuidado.",
     aboutText: "A RBS é uma empresa independente de apps, música e jogos. Um espaço para transformar ideias em experiências simples, criativas e cheias de personalidade.",
     copyright: "© 2026 RBS. Todos os direitos reservados.", language: "Idioma do site", character: "Léo Faísca, personagem do Scrumble"
   },
@@ -18,8 +18,8 @@ const RBS_COPY = {
     headline: "Apps, music\nand games.", intro: "We create digital experiences with simplicity and personality.", explore: "Explore our projects",
     ourProjects: "Our projects", category: "Word game · iOS", description: "Words, battles and a universe to explore. Discover a game where every letter opens up new possibilities.",
     discover: "Discover the game", categoryZeroPontos: "Driving theory · iOS", descriptionZeroPontos: "30-question practice tests and reviews from the Traffic Code. Study signs, use Colinha, and get closer to your license.",
-    discoverZeroPontos: "Discover the app", characterZeroPontos: "Placeholder for the Zero Pontos icon", categoryMarca: "TODO · iOS", descriptionMarca: "TODO: add Marca's description.",
-    discoverMarca: "Discover the app", characterMarca: "Placeholder for the Marca icon", aboutRbs: "About RBS", statement: "Different ideas.\nThe same care.",
+    discoverZeroPontos: "Discover the app", characterZeroPontos: "Zero Pontos icon", categoryMarca: "Book social network · iOS", descriptionMarca: "TODO: add Marca's description.",
+    discoverMarca: "Discover the app", characterMarca: "Marca icon", aboutRbs: "About RBS", statement: "Different ideas.\nThe same care.",
     aboutText: "RBS is an independent company creating apps, music and games. A space to turn ideas into simple, creative experiences full of personality.",
     copyright: "© 2026 RBS. All rights reserved.", language: "Site language", character: "Léo Faísca, a Scrumble character"
   },
@@ -29,8 +29,8 @@ const RBS_COPY = {
     headline: "Apps, musique\net jeux.", intro: "Nous créons des expériences numériques avec simplicité et personnalité.", explore: "Explorez nos projets",
     ourProjects: "Nos projets", category: "Jeu de lettres · iOS", description: "Des mots, des batailles et un univers à explorer. Découvrez un jeu où chaque lettre ouvre de nouvelles possibilités.",
     discover: "Découvrir le jeu", categoryZeroPontos: "Code de la route · iOS", descriptionZeroPontos: "Des simulés de 30 questions et des révisions du Code de la route. Étudiez les panneaux, utilisez Colinha et approchez-vous du permis.",
-    discoverZeroPontos: "Découvrir l’app", characterZeroPontos: "Placeholder de l’icône de Zero Pontos", categoryMarca: "TODO · iOS", descriptionMarca: "TODO : ajouter la description de Marca.",
-    discoverMarca: "Découvrir l’app", characterMarca: "Placeholder de l’icône de Marca", aboutRbs: "À propos de RBS", statement: "Des idées différentes.\nLa même attention.",
+    discoverZeroPontos: "Découvrir l’app", characterZeroPontos: "Icône de Zero Pontos", categoryMarca: "Réseau social de livres · iOS", descriptionMarca: "TODO : ajouter la description de Marca.",
+    discoverMarca: "Découvrir l’app", characterMarca: "Icône de Marca", aboutRbs: "À propos de RBS", statement: "Des idées différentes.\nLa même attention.",
     aboutText: "RBS est une entreprise indépendante qui crée des apps, de la musique et des jeux. Un espace pour transformer les idées en expériences simples, créatives et pleines de personnalité.",
     copyright: "© 2026 RBS. Tous droits réservés.", language: "Langue du site", character: "Léo Faísca, personnage de Scrumble"
   }
