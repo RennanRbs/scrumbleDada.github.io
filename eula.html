@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-title="eulaTitle" data-meta="eulaMeta">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,118 +7,84 @@
   <meta name="description" content="Contrato de Licença de Usuário Final aplicável a todos os aplicativos publicados por Rennan Rebouças Melo na Apple App Store.">
   <meta name="author" content="RBS">
   <meta name="theme-color" content="#fafafa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EULA — Rennan Rebouças Melo">
+  <meta property="og:description" content="Contrato de Licença de Usuário Final aplicável a todos os aplicativos publicados por Rennan Rebouças Melo na Apple App Store.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/rbs.css">
+  <script src="js/rbs.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <a class="skip-link" href="#main" data-copy="skip">Pular para o conteúdo</a>
   <header class="site-header wrap">
     <a class="wordmark" href="./" aria-label="RBS">RBS<span aria-hidden="true">.</span></a>
-    <nav aria-label="Principal">
-      <a href="./#projects">Projetos</a>
-      <a href="./#about">Sobre</a>
+    <nav data-label="navigation" aria-label="Principal">
+      <a href="./#projects" data-copy="projects">Projetos</a>
+      <a href="./#about" data-copy="about">Sobre</a>
     </nav>
   </header>
   <main id="main" class="legal wrap">
-    <p class="eyebrow">Licença de software · App Store</p>
-    <h1>Contrato de Licença de Usuário Final</h1>
-    <p class="legal-lead">Este Contrato de Licença de Usuário Final (“EULA”) rege o uso de <strong>todos os aplicativos publicados por Rennan Rebouças Melo na Apple App Store</strong> (cada um e em conjunto, o “Aplicativo Licenciado” ou “Licensed Application”). Os termos valem para aplicativos atuais e futuros e <strong>não dependem</strong> de qualquer lista de nomes. Menções a apps existentes, se houver, são apenas exemplos e não limitam o alcance deste EULA.</p>
-    <p>Última atualização: 11 de outubro de 2026. Contato: <a href="mailto:scrumbledada@gmail.com">scrumbledada@gmail.com</a>.</p>
+    <p class="eyebrow" data-copy="eulaEyebrow">Licença de software · App Store</p>
+    <h1 data-copy="eulaHeading">Contrato de Licença de Usuário Final</h1>
+    <p class="legal-lead" data-copy="eulaLead">Este EULA se aplica a todos os aplicativos publicados por Rennan Rebouças Melo na Apple App Store (o “Aplicativo Licenciado”). Vale para apps atuais e futuros e não depende de nenhuma lista de nomes. Apps já publicados — por exemplo Scrumble, Papelito, Zero Pontos e Marca — são citados só como exemplos e não limitam o alcance destes termos.</p>
+    <!-- TODO: replace with the official EULA effective date. None was found in this repo. -->
+    <p data-copy="eulaDate">TODO: data de vigência (não encontrada neste repositório).</p>
+    <p><span data-copy="eulaContactLabel">Contato:</span> <a href="mailto:scrumbledada@gmail.com">scrumbledada@gmail.com</a></p>
 
-    <section lang="pt-BR" aria-labelledby="pt-title">
-      <h2 id="pt-title">Português</h2>
-      <h2>1. Aceitação</h2>
-      <p>Ao baixar, instalar ou usar o Aplicativo Licenciado, você concorda com este EULA. Se não concordar, não use o Aplicativo Licenciado e desinstale-o.</p>
-      <h2>2. Concessão de licença</h2>
-      <p>Rennan Rebouças Melo (“Licenciante”) concede a você uma licença pessoal, revogável, intransferível e não exclusiva para usar o Aplicativo Licenciado no número de dispositivos Apple associados à sua Conta Apple, conforme as Regras de Uso da App Store. Você não adquire a propriedade do software: recebe apenas o direito de uso descrito aqui.</p>
-      <h2>3. Restrições</h2>
-      <p>Você não pode, salvo na medida em que a lei aplicável o permita de forma irrenunciável:</p>
-      <ul>
-        <li>copiar, modificar, traduzir ou criar obras derivadas do Aplicativo Licenciado;</li>
-        <li>fazer engenharia reversa, descompilar ou desmontar o Aplicativo Licenciado;</li>
-        <li>alugar, sublicenciar, vender, distribuir ou disponibilizar o Aplicativo Licenciado a terceiros fora da App Store;</li>
-        <li>remover avisos de propriedade ou usar o Aplicativo Licenciado de forma ilícita ou para prejudicar terceiros.</li>
-      </ul>
-      <h2>4. Compras, conteúdo e serviços</h2>
-      <p>Alguns Aplicativos Licenciados podem oferecer recursos gratuitos e pagos, incluindo compras no app processadas pela Apple. Preços, renovação e reembolsos seguem os termos da Apple. Conteúdo gerado ou armazenado no dispositivo permanece sob a sua responsabilidade, observadas as regras de cada app e a legislação aplicável.</p>
-      <h2>5. Propriedade intelectual</h2>
-      <p>O Aplicativo Licenciado, inclusive marca, código, texto, áudio e artes, pertence ao Licenciante ou a seus licenciadores. Este EULA não transfere direitos de propriedade intelectual além da licença de uso.</p>
-      <h2>6. Privacidade</h2>
-      <p>O tratamento de dados, quando existir, é descrito na política de privacidade publicada para o Aplicativo Licenciado (por exemplo em <a href="privacy.html">privacy.html</a> quando essa URL for a política indicada na App Store). Este EULA não substitui essa política.</p>
-      <h2>7. Isenção de garantias</h2>
-      <p>O Aplicativo Licenciado é oferecido “no estado em que se encontra”. Na máxima extensão permitida pela lei, o Licenciante não garante que o app será ininterrupto, livre de erros ou adequado a um fim específico.</p>
-      <h2>8. Limitação de responsabilidade</h2>
-      <p>Na máxima extensão permitida pela lei, o Licenciante não responde por danos indiretos, incidentais, especiais, punitivos ou lucros cessantes decorrentes do uso ou da impossibilidade de uso do Aplicativo Licenciado. A responsabilidade total, se houver, limita-se ao valor que você pagou pelo Aplicativo Licenciado nos doze meses anteriores ao evento, ou a um valor simbólico se o app for gratuito, salvo disposição legal em contrário.</p>
-      <h2>9. Rescisão</h2>
-      <p>Este EULA permanece em vigor até ser rescindido. Seus direitos cessam automaticamente se você violar estes termos. Você pode encerrar o uso a qualquer momento desinstalando o Aplicativo Licenciado. As seções que por natureza devam sobreviver (propriedade, isenções, limitação de responsabilidade e lei aplicável) permanecem válidas.</p>
-      <h2>10. Apple como terceira beneficiária</h2>
-      <p>Você reconhece que a Apple e suas subsidiárias são terceiras beneficiárias deste EULA e podem exigir o cumprimento destas obrigações. A Apple não tem obrigação de fornecer manutenção ou suporte em relação ao Aplicativo Licenciado. Reclamações de produto, propriedade intelectual ou conformidade legal relacionadas ao Aplicativo Licenciado são de responsabilidade do Licenciante, não da Apple, na forma prevista nas diretrizes da App Store.</p>
-      <h2>11. Lei aplicável</h2>
-      <p>Este EULA é regido pelas leis do Brasil, sem prejuízo de normas de proteção ao consumidor do seu lugar de residência que não possam ser afastadas. Disputas serão submetidas ao foro da comarca do Licenciante no Brasil, salvo foro obrigatório em contrário.</p>
-      <h2>12. Disposições gerais</h2>
-      <p>Se alguma cláusula for inválida, as demais permanecem em vigor. A falha em exigir o cumprimento de uma obrigação não constitui renúncia. Este EULA é o acordo completo sobre o uso do Aplicativo Licenciado e prevalece sobre comunicações anteriores sobre o mesmo objeto, sem limitar direitos legais irrenunciáveis.</p>
-    </section>
+    <h2 data-copy="eulaHLicense">1. Escopo da licença</h2>
+    <p data-copy="eulaPLicense">Os aplicativos disponibilizados na App Store são licenciados, não vendidos. Rennan Rebouças Melo (“Licenciante”) concede a você uma licença pessoal, revogável, intransferível e não exclusiva para usar o Aplicativo Licenciado em produtos da marca Apple que você possui ou controla, conforme as Regras de Uso da App Store. Estes termos também regem conteúdos, materiais ou serviços acessíveis ou adquiridos no Aplicativo Licenciado, bem como atualizações que substituam ou complementem o app original, salvo se a atualização vier com outro EULA. O Licenciante reserva todos os direitos não concedidos de forma expressa.</p>
+    <p data-copy="eulaPLicense2">Exceto o permitido pelas Regras de Uso, você não pode distribuir o Aplicativo Licenciado nem disponibilizá-lo em uma rede para uso simultâneo em vários aparelhos. Se vender um dispositivo Apple, remova o Aplicativo Licenciado antes da venda. Você não adquire a propriedade do software.</p>
 
-    <section class="legal-lang" lang="en" aria-labelledby="en-title">
-      <h2 id="en-title">English</h2>
-      <p>This End User License Agreement (“EULA”) governs your use of <strong>all applications published by Rennan Rebouças Melo on the Apple App Store</strong> (each and together, the “Licensed Application”). It applies to current and future apps and <strong>does not depend</strong> on any list of titles. Any mention of existing apps is illustrative only and does not limit the scope of these terms.</p>
-      <h2>1. Acceptance</h2>
-      <p>By downloading, installing, or using the Licensed Application, you agree to this EULA. If you do not agree, do not use the Licensed Application and uninstall it.</p>
-      <h2>2. License grant</h2>
-      <p>Rennan Rebouças Melo (the “Licensor”) grants you a personal, revocable, non-transferable, non-exclusive license to use the Licensed Application on Apple devices associated with your Apple Account, as allowed by the App Store Usage Rules. You do not own the software; you receive only the usage rights described here.</p>
-      <h2>3. Restrictions</h2>
-      <p>Except to the extent applicable law makes the following restrictions unenforceable, you may not copy, modify, translate, or create derivative works of the Licensed Application; reverse engineer, decompile, or disassemble it; rent, sublicense, sell, or distribute it outside the App Store; or remove proprietary notices or use it unlawfully.</p>
-      <h2>4. Purchases, content, and services</h2>
-      <p>Some Licensed Applications may include free and paid features, including in-app purchases billed by Apple. Pricing, renewal, and refunds follow Apple’s terms. Content you create or store is your responsibility, subject to each app’s rules and applicable law.</p>
-      <h2>5. Intellectual property</h2>
-      <p>The Licensed Application, including branding, code, text, audio, and artwork, belongs to the Licensor or its licensors. This EULA does not transfer intellectual-property ownership beyond the license to use.</p>
-      <h2>6. Privacy</h2>
-      <p>Any data handling is described in the privacy policy published for the Licensed Application (for example <a href="privacy.html">privacy.html</a> when that URL is the policy listed on the App Store). This EULA does not replace that policy.</p>
-      <h2>7. Disclaimer of warranties</h2>
-      <p>The Licensed Application is provided “as is.” To the maximum extent permitted by law, the Licensor does not warrant that it will be uninterrupted, error-free, or fit for a particular purpose.</p>
-      <h2>8. Limitation of liability</h2>
-      <p>To the maximum extent permitted by law, the Licensor is not liable for indirect, incidental, special, punitive, or consequential damages, or lost profits, arising from use of or inability to use the Licensed Application. Total liability, if any, is limited to the amount you paid for the Licensed Application in the twelve months before the claim, or a nominal amount if it is free, unless a non-waivable law requires otherwise.</p>
-      <h2>9. Termination</h2>
-      <p>This EULA remains in effect until terminated. Your rights end automatically if you breach these terms. You may stop using the Licensed Application at any time by uninstalling it. Provisions that by their nature should survive (ownership, disclaimers, limitation of liability, and governing law) remain in force.</p>
-      <h2>10. Apple as third-party beneficiary</h2>
-      <p>You acknowledge that Apple and its subsidiaries are third-party beneficiaries of this EULA and may enforce it. Apple has no obligation to provide maintenance or support for the Licensed Application. Product, intellectual-property, or legal-compliance claims relating to the Licensed Application are the Licensor’s responsibility, not Apple’s, as provided in the App Store guidelines.</p>
-      <h2>11. Governing law</h2>
-      <p>This EULA is governed by the laws of Brazil, without prejudice to non-waivable consumer-protection rules of your place of residence. Disputes shall be submitted to the courts of the Licensor’s venue in Brazil, unless a mandatory forum applies.</p>
-      <h2>12. General</h2>
-      <p>If any provision is unenforceable, the remaining terms stay in effect. Failure to enforce a provision is not a waiver. This EULA is the entire agreement on your use of the Licensed Application and supersedes prior communications on that subject, without limiting non-waivable legal rights.</p>
-    </section>
+    <h2 data-copy="eulaHRestrict">2. Restrições</h2>
+    <p data-copy="eulaPRestrict">Salvo na medida em que a lei aplicável proíba estas restrições, você não pode:</p>
+    <ul>
+      <li data-copy="eulaR1">copiar o Aplicativo Licenciado, exceto conforme esta licença e as Regras de Uso;</li>
+      <li data-copy="eulaR2">fazer engenharia reversa, descompilar, desmontar ou tentar obter o código-fonte;</li>
+      <li data-copy="eulaR3">modificar o Aplicativo Licenciado ou criar obras derivadas;</li>
+      <li data-copy="eulaR4">transferir, redistribuir, alugar ou sublicenciar o Aplicativo Licenciado, exceto se expressamente permitido;</li>
+      <li data-copy="eulaR5">remover avisos de propriedade ou usar o Aplicativo Licenciado de forma ilícita.</li>
+    </ul>
 
-    <section class="legal-lang" lang="fr" aria-labelledby="fr-title">
-      <h2 id="fr-title">Français</h2>
-      <p>Le présent contrat de licence utilisateur final («&nbsp;EULA&nbsp;») régit l’utilisation de <strong>toutes les applications publiées par Rennan Rebouças Melo sur l’Apple App Store</strong> (chacune et ensemble, l’«&nbsp;Application sous licence&nbsp;» ou «&nbsp;Licensed Application&nbsp;»). Il s’applique aux applications actuelles et futures et <strong>ne dépend d’aucune liste de noms</strong>. Toute mention d’applications existantes n’est qu’illustrative et ne limite pas le champ de ces conditions.</p>
-      <h2>1. Acceptation</h2>
-      <p>En téléchargeant, installant ou utilisant l’Application sous licence, vous acceptez le présent EULA. Sinon, ne l’utilisez pas et désinstallez-la.</p>
-      <h2>2. Concession de licence</h2>
-      <p>Rennan Rebouças Melo (le «&nbsp;Concédant&nbsp;») vous accorde une licence personnelle, révocable, incessible et non exclusive pour utiliser l’Application sous licence sur les appareils Apple liés à votre compte Apple, conformément aux règles d’usage de l’App Store. Vous n’acquérez pas la propriété du logiciel.</p>
-      <h2>3. Restrictions</h2>
-      <p>Sauf lorsque la loi applicable l’interdit de manière impérative, vous ne pouvez pas copier, modifier, traduire ou créer d’œuvres dérivées ; procéder à de l’ingénierie inverse ; louer, sous-licencier, vendre ou distribuer l’Application sous licence hors de l’App Store ; ni retirer les mentions de propriété ou l’utiliser illicitement.</p>
-      <h2>4. Achats, contenus et services</h2>
-      <p>Certaines Applications sous licence peuvent proposer des fonctions gratuites et payantes, y compris des achats intégrés facturés par Apple. Prix, renouvellement et remboursements suivent les conditions d’Apple.</p>
-      <h2>5. Propriété intellectuelle</h2>
-      <p>L’Application sous licence, y compris la marque, le code, les textes, l’audio et les visuels, appartient au Concédant ou à ses concédants. Le présent EULA ne transfère aucun droit de propriété au-delà de la licence d’utilisation.</p>
-      <h2>6. Confidentialité</h2>
-      <p>Tout traitement de données est décrit dans la politique de confidentialité publiée pour l’Application sous licence (par exemple <a href="privacy.html">privacy.html</a> lorsque cette URL est indiquée sur l’App Store). Le présent EULA ne remplace pas cette politique.</p>
-      <h2>7. Exclusion de garanties</h2>
-      <p>L’Application sous licence est fournie «&nbsp;en l’état&nbsp;». Dans la mesure maximale permise par la loi, le Concédant ne garantit pas qu’elle sera ininterrompue, exempte d’erreurs ou adaptée à un usage particulier.</p>
-      <h2>8. Limitation de responsabilité</h2>
-      <p>Dans la mesure maximale permise par la loi, le Concédant n’est pas responsable des dommages indirects, accessoires, spéciaux, punitifs ou des pertes de profits liés à l’utilisation ou à l’impossibilité d’utiliser l’Application sous licence. La responsabilité totale, le cas échéant, est limitée au montant payé pour l’Application sous licence au cours des douze mois précédents, ou à un montant symbolique si elle est gratuite, sauf disposition légale impérative contraire.</p>
-      <h2>9. Résiliation</h2>
-      <p>Le présent EULA reste en vigueur jusqu’à résiliation. Vos droits cessent automatiquement en cas de manquement. Vous pouvez cesser l’utilisation à tout moment en désinstallant l’Application sous licence. Les clauses destinées à survivre demeurent applicables.</p>
-      <h2>10. Apple, tiers bénéficiaire</h2>
-      <p>Vous reconnaissez qu’Apple et ses filiales sont des tiers bénéficiaires du présent EULA et peuvent en exiger le respect. Apple n’est pas tenue de fournir maintenance ou support. Les réclamations relatives au produit, à la propriété intellectuelle ou à la conformité légale incombent au Concédant, et non à Apple, conformément aux règles de l’App Store.</p>
-      <h2>11. Droit applicable</h2>
-      <p>Le présent EULA est régi par le droit du Brésil, sans préjudice des règles impératives de protection des consommateurs de votre lieu de résidence. Les litiges sont soumis aux tribunaux du for du Concédant au Brésil, sauf for obligatoire contraire.</p>
-      <h2>12. Dispositions générales</h2>
-      <p>Si une clause est invalide, les autres restent en vigueur. Le défaut d’exiger l’exécution d’une obligation ne vaut pas renonciation. Le présent EULA constitue l’intégralité de l’accord relatif à l’utilisation de l’Application sous licence.</p>
-    </section>
+    <h2 data-copy="eulaHData">3. Consentimento para uso de dados</h2>
+    <p data-copy="eulaPData">O Licenciante pode coletar e usar dados técnicos e informações relacionadas, inclusive sobre o aparelho, o sistema e o aplicativo, para prestar suporte, atualizações e melhorias. O tratamento de dados pessoais, quando existir, é descrito na política de privacidade publicada para aquele Aplicativo Licenciado. A política existente neste site é a de Scrumble, em</p>
+    <p><a href="privacy.html">privacy.html</a></p>
+    <p data-copy="eulaPData2">Os demais apps de exemplo ainda não têm página de privacidade neste repositório. Este EULA não substitui a política de privacidade aplicável a cada app.</p>
+
+    <h2 data-copy="eulaHPurchases">4. Compras no app e assinaturas com renovação automática</h2>
+    <p data-copy="eulaPPurchases">Alguns Aplicativos Licenciados podem oferecer compras no app e, quando houver, assinaturas com renovação automática. O pagamento é cobrado na Conta Apple no momento da confirmação da compra. A assinatura se renova automaticamente, salvo se você cancelar pelo menos 24 horas antes do fim do período vigente. A conta é cobrada pela renovação nas 24 horas anteriores ao término do período. Depois da compra, você gerencia as assinaturas e desativa a renovação automática em Ajustes da Conta Apple no aparelho. Qualquer parte não usada de um período de avaliação gratuita é perdida ao assinar. Preços, impostos, reembolsos e o processamento do pagamento seguem os termos da Apple.</p>
+
+    <h2 data-copy="eulaHExternal">5. Serviços externos</h2>
+    <p data-copy="eulaPExternal">O Aplicativo Licenciado pode exibir, incluir ou disponibilizar conteúdo, dados, informações, aplicativos ou materiais de terceiros, ou fornecer links para sites e serviços externos. O Licenciante não é responsável por esses serviços externos. O uso é por sua conta e risco e pode estar sujeito aos termos e à política de privacidade do terceiro.</p>
+
+    <h2 data-copy="eulaHTerm">6. Rescisão</h2>
+    <p data-copy="eulaPTerm">Este EULA permanece em vigor até ser rescindido. Seus direitos cessam automaticamente, sem aviso, se você deixar de cumprir qualquer termo. Nesse caso, você deve interromper o uso e desinstalar o Aplicativo Licenciado. Você também pode encerrar o uso a qualquer momento desinstalando o app. As seções que, por sua natureza, devam sobreviver (incluindo propriedade, isenção de garantias, limitação de responsabilidade, exportação e lei aplicável) continuam válidas.</p>
+
+    <h2 data-copy="eulaHWarranty">7. Ausência de garantia</h2>
+    <p data-copy="eulaPWarranty">O Aplicativo Licenciado e os serviços obtidos por meio dele são oferecidos “no estado em que se encontram” e “conforme disponíveis”. Na máxima extensão permitida pela lei, o Licenciante isenta-se de todas as garantias, expressas ou implícitas, inclusive comercialização, adequação a um fim específico e não violação. Você assume todo o risco quanto à qualidade e ao desempenho. Se o Aplicativo Licenciado revelar-se defeituoso, você assume o custo integral de qualquer serviço, reparo ou correção. Alguns direitos do consumidor não podem ser excluídos; nesta medida, esta isenção não se aplica.</p>
+
+    <h2 data-copy="eulaHLiability">8. Limitação de responsabilidade</h2>
+    <p data-copy="eulaPLiability">Na máxima extensão permitida pela lei, o Licenciante não responde por danos pessoais ou por quaisquer danos incidentais, especiais, indiretos ou consequentes, inclusive lucros cessantes, perda de dados, interrupção de negócios ou outros prejuízos comerciais, decorrentes do uso ou da impossibilidade de uso do Aplicativo Licenciado, ainda que o Licenciante tenha sido avisado da possibilidade desses danos. A responsabilidade total, se houver, limita-se ao valor que você pagou pelo Aplicativo Licenciado (excluídas assinaturas futuras ainda não cobradas) ou a um valor simbólico se o app for gratuito, salvo se a lei aplicável exigir outro resultado.</p>
+
+    <h2 data-copy="eulaHExport">9. Exportação</h2>
+    <p data-copy="eulaPExport">Você não pode usar, exportar ou reexportar o Aplicativo Licenciado senão conforme as leis de exportação dos Estados Unidos e as leis do país em que o Aplicativo Licenciado foi obtido. Em especial, o Aplicativo Licenciado não pode ser exportado ou reexportado para países embargados ou para pessoas ou entidades em listas de partes proibidas. Ao usar o Aplicativo Licenciado, você declara que não está em um desses países e não figura nessas listas.</p>
+
+    <h2 data-copy="eulaHLaw">10. Lei aplicável</h2>
+    <p data-copy="eulaPLaw">Este EULA é regido pelas leis da República Federativa do Brasil, sem prejuízo de normas de proteção ao consumidor do seu lugar de residência que não possam ser afastadas. Salvo foro obrigatório em contrário, as disputas serão submetidas ao foro da comarca do Licenciante no Brasil.</p>
+
+    <h2 data-copy="eulaHApple">11. Apple e suas subsidiárias como terceiras beneficiárias</h2>
+    <p data-copy="eulaPApple">Você e o Licenciante reconhecem que a Apple e suas subsidiárias são terceiras beneficiárias deste EULA e que, após a sua aceitação, a Apple terá o direito (e será considerada como tendo aceito esse direito) de exigir o cumprimento deste EULA contra você como terceira beneficiária. A Apple não tem obrigação de fornecer manutenção ou suporte em relação ao Aplicativo Licenciado. Reclamações de produto, propriedade intelectual ou conformidade legal relacionadas ao Aplicativo Licenciado são de responsabilidade do Licenciante, não da Apple, na forma prevista nas diretrizes da App Store.</p>
+
+    <h2 data-copy="eulaHGeneral">12. Disposições gerais</h2>
+    <p data-copy="eulaPGeneral">Se alguma cláusula for inválida, as demais permanecem em vigor. A falha em exigir o cumprimento de uma obrigação não constitui renúncia. Este EULA é o acordo completo sobre o uso do Aplicativo Licenciado e prevalece sobre comunicações anteriores sobre o mesmo objeto, sem limitar direitos legais irrenunciáveis. Dúvidas sobre este EULA:</p>
+    <p><a href="mailto:scrumbledada@gmail.com">scrumbledada@gmail.com</a></p>
   </main>
   <footer class="site-footer wrap">
-    <div class="footer-brand"><a class="wordmark" href="./" aria-label="RBS">RBS<span aria-hidden="true">.</span></a><p>© 2026 RBS. Todos os direitos reservados.</p><a class="footer-legal" href="eula.html">EULA</a></div>
+    <div class="footer-brand"><a class="wordmark" href="./" aria-label="RBS">RBS<span aria-hidden="true">.</span></a><p data-copy="copyright">© 2026 RBS. Todos os direitos reservados.</p><a class="footer-legal" href="eula.html" data-copy="eulaLink">EULA</a></div>
+    <div class="languages" role="group" aria-label="Idioma do site" data-label="language">
+      <button type="button" data-lang="pt" aria-pressed="true" lang="pt-BR" aria-label="Português">PT</button>
+      <button type="button" data-lang="en" aria-pressed="false" lang="en" aria-label="English">EN</button>
+      <button type="button" data-lang="fr" aria-pressed="false" lang="fr" aria-label="Français">FR</button>
+    </div>
   </footer>
 </body>
 </html>
