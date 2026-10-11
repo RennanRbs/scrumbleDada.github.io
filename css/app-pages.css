@@ -133,7 +133,7 @@ body.app-page .store-badge{
 body.app-page .store-badge:hover{color:#111;background:#fff;transform:translateY(-1px)}
 body.app-page .store-badge svg{display:block;flex:0 0 auto}
 body.app-page .store-badge-copy{display:flex;flex-direction:column;line-height:1.1}
-body.app-page .store-badge-kicker{font-size:10px;letter-spacing:.04em;color:#3a3a3c}
+body.app-page .store-badge-kicker{font-size:11px;letter-spacing:.03em;color:#3a3a3c}
 body.app-page .store-badge-name{font-size:20px;font-weight:630;letter-spacing:-.03em}
 
 body.app-page .app-feature{
@@ -243,7 +243,7 @@ body.app-page .why-index{
   color:var(--accent);
   font-size:12px;
   font-weight:700;
-  letter-spacing:.14em;
+  letter-spacing:.08em;
 }
 
 body.app-page .app-cta{
