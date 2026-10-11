@@ -1,0 +1,293 @@
+/* Product pages for Zero Pontos and Marca. Scoped to body.app-page so home/EULA stay unchanged. */
+body.app-page{
+  --ink:#f4fbf7;
+  --muted:#9bb0a8;
+  --blue:#4fd1a1;
+  --paper:#0b1216;
+  --paper-2:#121a1f;
+  --paper-3:#182228;
+  --accent:#4fd1a1;
+  --accent-deep:#2fa87c;
+  --glow:rgba(79,209,161,.42);
+  --glow-soft:rgba(79,209,161,.16);
+  --line:rgba(255,255,255,.08);
+  --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --text:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color-scheme:dark;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--text);
+}
+body.app-page.marca{
+  --ink:#f6f1e8;
+  --muted:#a8a195;
+  --blue:#d9a441;
+  --paper:#050505;
+  --paper-2:#0c0c0b;
+  --paper-3:#14130f;
+  --accent:#d9a441;
+  --accent-deep:#b8862e;
+  --glow:rgba(217,164,65,.36);
+  --glow-soft:rgba(143,154,122,.18);
+  --line:rgba(246,241,232,.08);
+  --display:"Newsreader","Iowan Old Style",Palatino,"Palatino Linotype","Times New Roman",serif;
+}
+body.app-page .skip-link{background:#1a2428;color:var(--ink)}
+body.app-page .site-header{height:88px}
+body.app-page .site-footer{border-color:var(--line)}
+body.app-page .languages button[aria-pressed=true]{background:#1d262b;color:var(--ink)}
+body.marca .languages button[aria-pressed=true]{background:#1a1814;color:var(--ink)}
+body.app-page .footer-legal:hover,body.app-page .wordmark:hover{color:var(--accent)}
+
+body.app-page .app-main{overflow:clip}
+body.app-page .app-hero{
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(260px,320px);
+  gap:72px;
+  align-items:center;
+  padding:72px 0 108px;
+  isolation:isolate;
+}
+body.app-page .app-hero::before,
+body.app-page .app-hero::after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  pointer-events:none;
+  border-radius:50%;
+  filter:blur(8px);
+}
+body.app-page .app-hero::before{
+  width:min(720px,90vw);
+  height:min(520px,70vw);
+  left:-12%;
+  top:-10%;
+  background:radial-gradient(circle at 40% 40%,var(--glow),transparent 68%);
+}
+body.app-page .app-hero::after{
+  width:min(480px,70vw);
+  height:min(420px,60vw);
+  right:-8%;
+  bottom:-18%;
+  background:radial-gradient(circle at 50% 50%,var(--glow-soft),transparent 70%);
+}
+body.app-page .app-kicker{
+  margin:0 0 18px;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--accent);
+}
+body.app-page .app-icon-wrap{
+  position:relative;
+  width:148px;
+  height:148px;
+  margin:0 0 28px;
+}
+body.app-page .app-icon-wrap::before{
+  content:"";
+  position:absolute;
+  inset:-28%;
+  background:radial-gradient(circle,var(--glow) 0%,transparent 68%);
+  z-index:0;
+}
+body.app-page .app-icon{
+  position:relative;
+  display:block;
+  width:148px;
+  height:148px;
+  border-radius:22.5%;
+  object-fit:cover;
+  filter:drop-shadow(0 22px 40px var(--glow));
+}
+body.app-page .app-hero h1{
+  font-family:var(--display);
+  font-size:clamp(52px,7vw,80px);
+  line-height:1.02;
+  letter-spacing:-.045em;
+  font-weight:650;
+  margin:0 0 18px;
+  white-space:normal;
+}
+body.marca .app-hero h1{font-weight:500;letter-spacing:-.03em}
+body.app-page .app-tagline{
+  max-width:34ch;
+  margin:0 0 32px;
+  font-size:clamp(19px,2.2vw,23px);
+  line-height:1.45;
+  color:var(--muted);
+}
+body.app-page .store-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  min-height:52px;
+  padding:10px 22px 10px 16px;
+  border-radius:14px;
+  background:#f5f5f7;
+  color:#111;
+  box-shadow:0 10px 28px rgba(0,0,0,.28);
+}
+body.app-page .store-badge:hover{color:#111;background:#fff;transform:translateY(-1px)}
+body.app-page .store-badge svg{display:block;flex:0 0 auto}
+body.app-page .store-badge-copy{display:flex;flex-direction:column;line-height:1.1}
+body.app-page .store-badge-kicker{font-size:10px;letter-spacing:.04em;color:#3a3a3c}
+body.app-page .store-badge-name{font-size:20px;font-weight:630;letter-spacing:-.03em}
+
+body.app-page .app-feature{
+  position:relative;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:72px;
+  align-items:center;
+  padding:100px 0;
+}
+body.app-page .app-feature:nth-of-type(odd){background:transparent}
+body.app-page .app-band{
+  position:relative;
+  background:var(--paper-2);
+  border-block:1px solid var(--line);
+}
+body.app-page .app-band .app-feature{padding-block:108px}
+body.app-page .app-feature.is-reverse .app-feature-copy{order:2}
+body.app-page .app-feature-solo{grid-template-columns:1fr;max-width:720px;margin-inline:auto;text-align:center}
+body.app-page .app-feature-solo .app-feature-copy{max-width:40rem;margin-inline:auto}
+body.app-page .app-feature-solo p{margin-inline:auto}
+body.app-page .app-feature-kicker{
+  margin:0 0 12px;
+  color:var(--accent);
+  font-size:13px;
+  font-weight:650;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+body.app-page .app-feature h2,
+body.app-page .app-why h2,
+body.app-page .app-cta h2{
+  font-family:var(--display);
+  font-size:clamp(32px,4.4vw,48px);
+  line-height:1.12;
+  letter-spacing:-.035em;
+  font-weight:600;
+  margin:0 0 16px;
+  white-space:normal;
+}
+body.marca .app-feature h2,
+body.marca .app-why h2,
+body.marca .app-cta h2{font-weight:500}
+body.app-page .app-feature p{
+  max-width:38ch;
+  margin:0;
+  font-size:18px;
+  line-height:1.6;
+  color:var(--muted);
+}
+
+body.app-page .device{
+  position:relative;
+  width:min(300px,78vw);
+  margin:0 auto;
+}
+body.app-page .device-bezel{
+  position:relative;
+  padding:11px;
+  border-radius:48px;
+  background:linear-gradient(160deg,#4a4a50 0%,#1a1a1d 48%,#0b0b0d 100%);
+  box-shadow:
+    0 40px 80px rgba(0,0,0,.48),
+    0 0 0 1px rgba(255,255,255,.06),
+    inset 0 1px 0 rgba(255,255,255,.22);
+}
+body.zp .device-bezel{box-shadow:0 40px 90px rgba(79,209,161,.16),0 28px 70px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.2)}
+body.marca .device-bezel{box-shadow:0 40px 90px rgba(217,164,65,.14),0 28px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.18)}
+body.app-page .device-bezel::before,
+body.app-page .device-bezel::after{
+  content:"";
+  position:absolute;
+  right:-2px;
+  width:3px;
+  border-radius:2px;
+  background:#2a2a2e;
+}
+body.app-page .device-bezel::before{top:108px;height:54px}
+body.app-page .device-bezel::after{top:178px;height:78px}
+body.app-page .device-screen{border-radius:38px;overflow:hidden;background:#000}
+body.app-page .device-screen img{display:block;width:100%;height:auto}
+
+body.app-page .app-why{padding:112px 0 40px}
+body.app-page .app-why h2{text-align:center;margin-bottom:48px}
+body.app-page .why-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+body.app-page .why-card{
+  padding:28px 26px 26px;
+  border-radius:22px;
+  background:var(--paper-2);
+  border:1px solid var(--line);
+}
+body.app-page .why-card strong{
+  display:block;
+  font-size:17px;
+  font-weight:620;
+  margin:0 0 8px;
+  color:var(--ink);
+}
+body.app-page .why-card p{margin:0;font-size:15px;line-height:1.55;color:var(--muted)}
+body.app-page .why-index{
+  display:block;
+  margin-bottom:14px;
+  color:var(--accent);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.14em;
+}
+
+body.app-page .app-cta{
+  text-align:center;
+  padding:96px 0 120px;
+}
+body.app-page .app-cta h2{margin-bottom:12px}
+body.app-page .app-cta p{
+  max-width:40ch;
+  margin:0 auto 28px;
+  color:var(--muted);
+  font-size:18px;
+  line-height:1.55;
+}
+
+body.app-page .app-reveal{opacity:1;transform:none}
+@media(prefers-reduced-motion:no-preference){
+  body.app-page .app-reveal{
+    opacity:0;
+    transform:translateY(28px);
+    transition:opacity .85s cubic-bezier(.22,1,.36,1),transform .85s cubic-bezier(.22,1,.36,1);
+  }
+  body.app-page .app-reveal.is-in{opacity:1;transform:none}
+  body.app-page .app-hero-device{transition-delay:.12s}
+  @keyframes app-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  body.app-page .device-float{animation:app-float 7.5s ease-in-out infinite}
+}
+
+@media(max-width:860px){
+  body.app-page .app-hero,
+  body.app-page .app-feature{grid-template-columns:1fr;gap:40px}
+  body.app-page .app-feature.is-reverse .app-feature-copy{order:0}
+  body.app-page .app-hero{padding:48px 0 72px;text-align:center}
+  body.app-page .app-icon-wrap{margin-inline:auto}
+  body.app-page .app-tagline{margin-inline:auto}
+  body.app-page .app-feature{padding:72px 0;text-align:center}
+  body.app-page .app-feature p{margin-inline:auto}
+  body.app-page .app-band .app-feature{padding-block:80px}
+  body.app-page .why-grid{grid-template-columns:1fr}
+  body.app-page .app-why h2,body.app-page .app-cta h2{text-align:center}
+}
+@media(max-width:700px){
+  body.app-page .app-icon-wrap,body.app-page .app-icon{width:124px;height:124px}
+  body.app-page .app-hero h1{font-size:clamp(44px,12vw,58px)}
+  body.app-page .device{width:min(270px,78vw)}
+  body.app-page .app-why,body.app-page .app-cta{padding-left:0;padding-right:0}
+}
