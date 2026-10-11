@@ -7,7 +7,7 @@ const RBS_COPY = {
     headline: "Apps, música\ne jogos.", intro: "Criamos experiências digitais com simplicidade e personalidade.", explore: "Explore nossos projetos",
     ourProjects: "Nossos projetos", category: "Jogo de palavras · iOS", description: "Palavras, batalhas e um universo para explorar. Conheça um jogo onde cada letra abre novas possibilidades.",
     discover: "Conhecer o jogo", categoryZeroPontos: "Simulado CNH · iOS", descriptionZeroPontos: "Simulados de 30 questões e revisão com o Código de Trânsito. Estude placas, use a Colinha e chegue mais perto da CNH.",
-    discoverZeroPontos: "Conhecer o app", characterZeroPontos: "Ícone do Zero Pontos", categoryMarca: "Rede social de livros · iOS", descriptionMarca: "TODO: adicionar a descrição da Marca.",
+    discoverZeroPontos: "Conhecer o app", characterZeroPontos: "Ícone do Zero Pontos", categoryMarca: "Livros / social · iOS", descriptionMarca: "Uma rede social de livros: recomendações, conversas e universos literários feitos para você.",
     discoverMarca: "Conhecer o app", characterMarca: "Ícone da Marca", aboutRbs: "Sobre a RBS", statement: "Ideias diferentes.\nO mesmo cuidado.",
     aboutText: "A RBS é uma empresa independente de apps, música e jogos. Um espaço para transformar ideias em experiências simples, criativas e cheias de personalidade.",
     copyright: "© 2026 RBS. Todos os direitos reservados.", language: "Idioma do site", character: "Léo Faísca, personagem do Scrumble",
@@ -37,7 +37,30 @@ const RBS_COPY = {
     eulaHApple: "10. Apple como terceira beneficiária",
     eulaPApple: "Você e o Licenciante reconhecem que a Apple e suas subsidiárias são terceiras beneficiárias deste EULA e que, após a sua aceitação, a Apple terá o direito (e será considerada como tendo aceito esse direito) de exigir o cumprimento deste EULA contra você como terceira beneficiária. A Apple não tem obrigação de fornecer manutenção ou suporte em relação ao Aplicativo Licenciado. Reclamações de produto, propriedade intelectual ou conformidade legal relacionadas ao Aplicativo Licenciado são de responsabilidade do Licenciante, não da Apple, na forma prevista nas diretrizes da App Store.",
     eulaHPurchases: "11. Compras no app e assinaturas com renovação automática",
-    eulaPPurchases: "Alguns Aplicativos Licenciados podem oferecer compras no app e, quando houver, assinaturas com renovação automática. O pagamento é cobrado na Conta Apple na confirmação da compra. A assinatura se renova automaticamente, salvo cancelamento pelo menos 24 horas antes do fim do período vigente. A conta é cobrada pela renovação nas 24 horas anteriores ao término do período. Depois da compra, gerencie as assinaturas e desative a renovação automática em Ajustes da Conta Apple. Qualquer parte não usada de um período de avaliação gratuita é perdida ao assinar. Preços, impostos, reembolsos e o processamento do pagamento seguem os termos da Apple."
+    eulaPPurchases: "Alguns Aplicativos Licenciados podem oferecer compras no app e, quando houver, assinaturas com renovação automática. O pagamento é cobrado na Conta Apple na confirmação da compra. A assinatura se renova automaticamente, salvo cancelamento pelo menos 24 horas antes do fim do período vigente. A conta é cobrada pela renovação nas 24 horas anteriores ao término do período. Depois da compra, gerencie as assinaturas e desative a renovação automática em Ajustes da Conta Apple. Qualquer parte não usada de um período de avaliação gratuita é perdida ao assinar. Preços, impostos, reembolsos e o processamento do pagamento seguem os termos da Apple.",
+    storeKicker: "Baixar na",
+    zpTitle: "Zero Pontos — Simulado CNH", zpMeta: "Estude para a prova teórica do Detran: simulados de 30 questões, revisão com o Código de Trânsito e progresso até a CNH.",
+    zpEyebrow: "Simulado CNH · iOS", zpTagline: "Estude para a teórica do Detran e chegue na CNH com confiança.",
+    zpIconAlt: "Ícone do Zero Pontos", zpAltEstudar: "Aba Estudar do Zero Pontos", zpAltProgresso: "Aba Progresso do Zero Pontos",
+    zpF1Kicker: "Estudar", zpF1Title: "Blocos, Colinha e o dia da prova.", zpF1Body: "Sinalização, infrações, circulação e primeiros socorros — no seu ritmo. A Colinha resume o essencial. Dia da prova mostra o que levar e como chegar calmo.",
+    zpF2Kicker: "Progresso", zpF2Title: "Acompanhe a nota até o mínimo 20.", zpF2Body: "Sequência de estudo, acertos por bloco e a curva das suas notas — com a linha dos 20 de 30 que a prova exige.",
+    zpF3Kicker: "Prova", zpF3Title: "30 questões. 1 hora. Como no Detran.", zpF3Body: "Simulados no formato da teórica, revisão explicada com o Código de Trânsito e placas reais de sinalização. Premium libera revisar erros e favoritas.",
+    zpWhyTitle: "Por que usar", zpWhy1Title: "Formato da prova", zpWhy1Body: "Simulados de 30 questões em 1 hora — o mesmo ritmo da teórica.",
+    zpWhy2Title: "Código de Trânsito", zpWhy2Body: "Cada revisão explica o porquê, com base no CTB.",
+    zpWhy3Title: "Placas de verdade", zpWhy3Body: "Sinalização viária com as placas que caem na prova.",
+    zpWhy4Title: "Até os 20 pontos", zpWhy4Body: "Veja a evolução da nota e onde ainda precisa estudar.",
+    zpCtaTitle: "Comece a estudar hoje.", zpCtaBody: "Gratuito para simular e revisar. Premium quando quiser ir além.",
+    maTitle: "Marca — Rede social de livros", maMeta: "Marca é a rede social de livros: recomendações, conversas e estantes — universos literários feitos para você.",
+    maEyebrow: "Livros / social · iOS", maTagline: "Livros, pessoas e universos feitos para você.",
+    maIconAlt: "Ícone da Marca", maAltHome: "Início da Marca com citação e continuar leitura", maAltLeituras: "Feed Leituras da Marca", maAltEstante: "Minha Estante na Marca",
+    maF1Kicker: "Início", maF1Title: "Uma frase. Um livro. Um “quero ler”.", maF1Body: "O dia começa com uma citação inspirada na sua estante e o convite para continuar de onde parou.",
+    maF2Kicker: "Leituras", maF2Title: "A vida literária das pessoas que você gosta.", maF2Body: "Um feed de quem está lendo o quê — páginas, notas, curtidas e comentários. Surpresa constante, sem algoritmo barulhento.",
+    maF3Kicker: "Estante", maF3Title: "Sua estante, com o progresso à vista.", maF3Body: "Capas, percentuais e o próximo capítulo — a biblioteca pessoal que também é um convite para os outros.",
+    maWhyTitle: "Por que usar", maWhy1Title: "Feito para você", maWhy1Body: "Recomendações e universos literários que acompanham o seu gosto.",
+    maWhy2Title: "Gente de verdade", maWhy2Body: "Interaja com quem lê — sem transformar o livro em ruído.",
+    maWhy3Title: "Estante viva", maWhy3Body: "Organize o que lê e veja o progresso em cada capa.",
+    maWhy4Title: "Quero ler", maWhy4Body: "Uma citação, um toque, e o próximo livro já está na lista.",
+    maCtaTitle: "Entre na sua próxima história.", maCtaBody: "Marca é o lugar onde a estante encontra as pessoas."
   },
   en: {
     title: "RBS — Apps, music and games", meta: "We create digital experiences with simplicity and personality. Explore RBS projects.",
@@ -45,7 +68,7 @@ const RBS_COPY = {
     headline: "Apps, music\nand games.", intro: "We create digital experiences with simplicity and personality.", explore: "Explore our projects",
     ourProjects: "Our projects", category: "Word game · iOS", description: "Words, battles and a universe to explore. Discover a game where every letter opens up new possibilities.",
     discover: "Discover the game", categoryZeroPontos: "Driving theory · iOS", descriptionZeroPontos: "30-question practice tests and reviews from the Traffic Code. Study signs, use Colinha, and get closer to your license.",
-    discoverZeroPontos: "Discover the app", characterZeroPontos: "Zero Pontos icon", categoryMarca: "Book social network · iOS", descriptionMarca: "TODO: add Marca's description.",
+    discoverZeroPontos: "Discover the app", characterZeroPontos: "Zero Pontos icon", categoryMarca: "Books / social · iOS", descriptionMarca: "A book social network: recommendations, conversations, and literary worlds made for you.",
     discoverMarca: "Discover the app", characterMarca: "Marca icon", aboutRbs: "About RBS", statement: "Different ideas.\nThe same care.",
     aboutText: "RBS is an independent company creating apps, music and games. A space to turn ideas into simple, creative experiences full of personality.",
     copyright: "© 2026 RBS. All rights reserved.", language: "Site language", character: "Léo Faísca, a Scrumble character",
@@ -75,7 +98,30 @@ const RBS_COPY = {
     eulaHApple: "10. Apple as Third-Party Beneficiary",
     eulaPApple: "You and the Licensor acknowledge that Apple and its subsidiaries are third-party beneficiaries of this EULA and that, upon your acceptance of the terms and conditions of this EULA, Apple will have the right (and will be deemed to have accepted the right) to enforce this EULA against you as a third-party beneficiary thereof. Apple has no obligation to furnish any maintenance and support services with respect to the Licensed Application. Product, intellectual-property, or legal-compliance claims relating to the Licensed Application are the Licensor’s responsibility, not Apple’s, as provided in the App Store guidelines.",
     eulaHPurchases: "11. In-App Purchases and Auto-Renewing Subscriptions",
-    eulaPPurchases: "Some Licensed Applications may offer in-app purchases and, where available, auto-renewing subscriptions. Payment is charged to your Apple ID at confirmation of purchase. A subscription renews automatically unless you cancel at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours prior to the end of the current period. After purchase, manage subscriptions and turn off auto-renewal in your Apple ID Account Settings. Any unused portion of a free trial is forfeited when you purchase a subscription. Prices, taxes, refunds, and payment processing follow Apple’s terms."
+    eulaPPurchases: "Some Licensed Applications may offer in-app purchases and, where available, auto-renewing subscriptions. Payment is charged to your Apple ID at confirmation of purchase. A subscription renews automatically unless you cancel at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours prior to the end of the current period. After purchase, manage subscriptions and turn off auto-renewal in your Apple ID Account Settings. Any unused portion of a free trial is forfeited when you purchase a subscription. Prices, taxes, refunds, and payment processing follow Apple’s terms.",
+    storeKicker: "Download on the",
+    zpTitle: "Zero Pontos — Driving theory", zpMeta: "Study for Brazil’s Detran theory test: 30-question mocks, Traffic Code reviews, and progress toward your license.",
+    zpEyebrow: "Driving theory · iOS", zpTagline: "Study for the Detran theory test and walk into the exam ready.",
+    zpIconAlt: "Zero Pontos icon", zpAltEstudar: "Zero Pontos Study tab", zpAltProgresso: "Zero Pontos Progress tab",
+    zpF1Kicker: "Study", zpF1Title: "Blocks, Colinha, and exam day.", zpF1Body: "Signs, infractions, circulation, and first aid — at your pace. Colinha is the quick recap. Exam day tells you what to bring and how to stay calm.",
+    zpF2Kicker: "Progress", zpF2Title: "Watch your score climb to 20.", zpF2Body: "Study streaks, accuracy by block, and the curve of your scores — with the 20-out-of-30 line the exam requires.",
+    zpF3Kicker: "The exam", zpF3Title: "30 questions. One hour. Like Detran.", zpF3Body: "Mocks in the real format, reviews explained with the Traffic Code, and authentic road signs. Premium unlocks missed questions and favorites.",
+    zpWhyTitle: "Why use it", zpWhy1Title: "Exam format", zpWhy1Body: "30-question mocks in one hour — the same rhythm as the real test.",
+    zpWhy2Title: "Traffic Code", zpWhy2Body: "Every review explains the why, grounded in the CTB.",
+    zpWhy3Title: "Real signs", zpWhy3Body: "Road signage with the plates that show up on the exam.",
+    zpWhy4Title: "Up to 20 points", zpWhy4Body: "See how your score is moving and where you still need work.",
+    zpCtaTitle: "Start studying today.", zpCtaBody: "Free to mock and review. Premium when you want to go further.",
+    maTitle: "Marca — Book social network", maMeta: "Marca is a book social network: recommendations, conversations, and shelves — literary worlds made for you.",
+    maEyebrow: "Books / social · iOS", maTagline: "Books, people, and worlds made for you.",
+    maIconAlt: "Marca icon", maAltHome: "Marca home with a quote and continue reading", maAltLeituras: "Marca Readings feed", maAltEstante: "My Shelf in Marca",
+    maF1Kicker: "Home", maF1Title: "A line. A book. A “want to read”.", maF1Body: "The day opens with a quote from your shelf and an invitation to pick up where you left off.",
+    maF2Kicker: "Readings", maF2Title: "The reading life of people you like.", maF2Body: "A feed of who is reading what — pages, notes, likes, and comments. Constant surprise, without a noisy algorithm.",
+    maF3Kicker: "Shelf", maF3Title: "Your shelf, with progress in sight.", maF3Body: "Covers, percentages, and the next chapter — a personal library that is also an invitation.",
+    maWhyTitle: "Why use it", maWhy1Title: "Made for you", maWhy1Body: "Recommendations and literary worlds that follow your taste.",
+    maWhy2Title: "Real people", maWhy2Body: "Talk with other readers — without turning books into noise.",
+    maWhy3Title: "A living shelf", maWhy3Body: "Organize what you read and see progress on every cover.",
+    maWhy4Title: "Want to read", maWhy4Body: "A quote, a tap, and the next book is already on the list.",
+    maCtaTitle: "Step into your next story.", maCtaBody: "Marca is where the shelf meets the people."
   },
   fr: {
     title: "RBS — Apps, musique et jeux", meta: "Nous créons des expériences numériques avec simplicité et personnalité. Découvrez les projets RBS.",
@@ -83,7 +129,7 @@ const RBS_COPY = {
     headline: "Apps, musique\net jeux.", intro: "Nous créons des expériences numériques avec simplicité et personnalité.", explore: "Explorez nos projets",
     ourProjects: "Nos projets", category: "Jeu de lettres · iOS", description: "Des mots, des batailles et un univers à explorer. Découvrez un jeu où chaque lettre ouvre de nouvelles possibilités.",
     discover: "Découvrir le jeu", categoryZeroPontos: "Code de la route · iOS", descriptionZeroPontos: "Des simulés de 30 questions et des révisions du Code de la route. Étudiez les panneaux, utilisez Colinha et approchez-vous du permis.",
-    discoverZeroPontos: "Découvrir l’app", characterZeroPontos: "Icône de Zero Pontos", categoryMarca: "Réseau social de livres · iOS", descriptionMarca: "TODO : ajouter la description de Marca.",
+    discoverZeroPontos: "Découvrir l’app", characterZeroPontos: "Icône de Zero Pontos", categoryMarca: "Livres / social · iOS", descriptionMarca: "Un réseau social de livres : des recommandations, des échanges et des univers littéraires faits pour vous.",
     discoverMarca: "Découvrir l’app", characterMarca: "Icône de Marca", aboutRbs: "À propos de RBS", statement: "Des idées différentes.\nLa même attention.",
     aboutText: "RBS est une entreprise indépendante qui crée des apps, de la musique et des jeux. Un espace pour transformer les idées en expériences simples, créatives et pleines de personnalité.",
     copyright: "© 2026 RBS. Tous droits réservés.", language: "Langue du site", character: "Léo Faísca, personnage de Scrumble",
@@ -113,7 +159,30 @@ const RBS_COPY = {
     eulaHApple: "10. Apple en tant que tiers bénéficiaire",
     eulaPApple: "Vous et le Concédant reconnaissez qu’Apple et ses filiales sont des tiers bénéficiaires du présent EULA et que, dès votre acceptation, Apple aura le droit (et sera réputée avoir accepté ce droit) d’en exiger le respect à votre encontre en tant que tiers bénéficiaire. Apple n’est pas tenue de fournir maintenance ou support pour l’Application sous licence. Les réclamations relatives au produit, à la propriété intellectuelle ou à la conformité légale incombent au Concédant, et non à Apple, conformément aux règles de l’App Store.",
     eulaHPurchases: "11. Achats intégrés et abonnements à renouvellement automatique",
-    eulaPPurchases: "Certaines Applications sous licence peuvent proposer des achats intégrés et, le cas échéant, des abonnements à renouvellement automatique. Le paiement est débité sur le compte Apple lors de la confirmation de l’achat. L’abonnement se renouvelle automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours. Le compte est débité pour le renouvellement dans les 24 heures précédant la fin de la période. Après l’achat, gérez les abonnements et désactivez le renouvellement automatique dans les Réglages du compte Apple. Toute partie non utilisée d’une période d’essai gratuite est perdue lors de la souscription. Prix, taxes, remboursements et traitement du paiement suivent les conditions d’Apple."
+    eulaPPurchases: "Certaines Applications sous licence peuvent proposer des achats intégrés et, le cas échéant, des abonnements à renouvellement automatique. Le paiement est débité sur le compte Apple lors de la confirmation de l’achat. L’abonnement se renouvelle automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours. Le compte est débité pour le renouvellement dans les 24 heures précédant la fin de la période. Après l’achat, gérez les abonnements et désactivez le renouvellement automatique dans les Réglages du compte Apple. Toute partie non utilisée d’une période d’essai gratuite est perdue lors de la souscription. Prix, taxes, remboursements et traitement du paiement suivent les conditions d’Apple.",
+    storeKicker: "Télécharger sur l’",
+    zpTitle: "Zero Pontos — Code de la route", zpMeta: "Préparez l’examen théorique du Detran : des simulés de 30 questions, des révisions du Code et votre progression vers le permis.",
+    zpEyebrow: "Code de la route · iOS", zpTagline: "Préparez l’examen théorique du Detran et arrivez serein le jour J.",
+    zpIconAlt: "Icône de Zero Pontos", zpAltEstudar: "Onglet Étudier de Zero Pontos", zpAltProgresso: "Onglet Progression de Zero Pontos",
+    zpF1Kicker: "Étudier", zpF1Title: "Blocs, Colinha et le jour de l’examen.", zpF1Body: "Signalisation, infractions, circulation et premiers secours — à votre rythme. Colinha résume l’essentiel. Le jour de l’examen indique quoi emporter et comment rester calme.",
+    zpF2Kicker: "Progression", zpF2Title: "Suivez la note jusqu’au minimum 20.", zpF2Body: "Série d’étude, réussite par bloc et courbe de vos notes — avec la ligne des 20 sur 30 exigée à l’examen.",
+    zpF3Kicker: "L’examen", zpF3Title: "30 questions. 1 heure. Comme au Detran.", zpF3Body: "Des simulés au format réel, des révisions expliquées avec le Code et de vrais panneaux. Premium débloque les erreurs et les favoris.",
+    zpWhyTitle: "Pourquoi l’utiliser", zpWhy1Title: "Format de l’examen", zpWhy1Body: "Des simulés de 30 questions en une heure — le même rythme que l’épreuve.",
+    zpWhy2Title: "Code de la route", zpWhy2Body: "Chaque révision explique le pourquoi, d’après le CTB.",
+    zpWhy3Title: "Vrais panneaux", zpWhy3Body: "La signalisation telle qu’elle tombe à l’examen.",
+    zpWhy4Title: "Jusqu’à 20 points", zpWhy4Body: "Voyez l’évolution de la note et ce qu’il reste à travailler.",
+    zpCtaTitle: "Commencez aujourd’hui.", zpCtaBody: "Gratuit pour simuler et réviser. Premium quand vous voulez aller plus loin.",
+    maTitle: "Marca — Réseau social de livres", maMeta: "Marca est un réseau social de livres : recommandations, échanges et étagères — des univers littéraires faits pour vous.",
+    maEyebrow: "Livres / social · iOS", maTagline: "Des livres, des gens et des univers faits pour vous.",
+    maIconAlt: "Icône de Marca", maAltHome: "Accueil de Marca avec une citation et continuer la lecture", maAltLeituras: "Fil Lectures de Marca", maAltEstante: "Mon étagère dans Marca",
+    maF1Kicker: "Accueil", maF1Title: "Une phrase. Un livre. Un « je veux lire ».", maF1Body: "La journée s’ouvre sur une citation inspirée de votre étagère et l’invitation à reprendre là où vous vous êtes arrêté.",
+    maF2Kicker: "Lectures", maF2Title: "La vie littéraire des gens que vous aimez.", maF2Body: "Un fil de qui lit quoi — pages, notes, likes et commentaires. La surprise, sans algorithme bruyant.",
+    maF3Kicker: "Étagère", maF3Title: "Votre étagère, la progression sous les yeux.", maF3Body: "Couvertures, pourcentages et prochain chapitre — une bibliothèque personnelle qui est aussi une invitation.",
+    maWhyTitle: "Pourquoi l’utiliser", maWhy1Title: "Fait pour vous", maWhy1Body: "Des recommandations et des univers qui suivent votre goût.",
+    maWhy2Title: "De vraies personnes", maWhy2Body: "Échangez avec d’autres lecteurs — sans faire du livre du bruit.",
+    maWhy3Title: "Une étagère vivante", maWhy3Body: "Classez vos lectures et voyez la progression sur chaque couverture.",
+    maWhy4Title: "Je veux lire", maWhy4Body: "Une citation, un geste, et le prochain livre est déjà sur la liste.",
+    maCtaTitle: "Entrez dans votre prochaine histoire.", maCtaBody: "Marca, c’est là où l’étagère rencontre les gens."
   }
 };
 function setRbsLanguage(lang) {
@@ -144,3 +213,18 @@ try { initialRbsLanguage = localStorage.getItem(RBS_LANGUAGE_KEY); } catch { /* 
 if (!Object.hasOwn(RBS_COPY, initialRbsLanguage)) initialRbsLanguage = (navigator.language || "pt").slice(0, 2).toLowerCase();
 setRbsLanguage(Object.hasOwn(RBS_COPY, initialRbsLanguage) ? initialRbsLanguage : "pt");
 document.querySelectorAll("[data-lang]").forEach(button => button.addEventListener("click", () => setRbsLanguage(button.dataset.lang)));
+if (document.body.classList.contains("app-page")) {
+  const reveals = document.querySelectorAll(".app-reveal");
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    reveals.forEach(el => el.classList.add("is-in"));
+  } else {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-in");
+        io.unobserve(entry.target);
+      });
+    }, { threshold: 0.14, rootMargin: "0px 0px -6% 0px" });
+    reveals.forEach(el => io.observe(el));
+  }
+}
