@@ -164,6 +164,22 @@ body.app-page .store-badge svg{display:block;flex:0 0 auto}
 body.app-page .store-badge-copy{display:flex;flex-direction:column;line-height:1.1}
 body.app-page .store-badge-kicker{font-size:11px;letter-spacing:.03em;color:#3a3a3c}
 body.app-page .store-badge-name{font-size:20px;font-weight:630;letter-spacing:-.03em}
+body.app-page .store-badge.is-soon{
+  pointer-events:none;
+  cursor:default;
+  user-select:none;
+  opacity:.62;
+  filter:saturate(.55);
+  box-shadow:none;
+  background:#e8e8ed;
+  color:#3a3a3c;
+}
+body.app-page .store-badge.is-soon:hover{
+  color:#3a3a3c;
+  background:#e8e8ed;
+  transform:none;
+}
+body.app-page .store-badge.is-soon .store-badge-kicker{color:#6e6e73}
 
 body.app-page .app-feature{
   position:relative;
